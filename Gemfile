@@ -43,4 +43,5 @@ group :test do
   gem 'rspec-rails', '~> 3.0.0.rc1'
   gem 'database_cleaner', '~> 1.3.0'
   gem 'factory_girl_rails', '~> 4.4.1'
+  gem 'selenium-webdriver', '~> 2.42.0'
 end
