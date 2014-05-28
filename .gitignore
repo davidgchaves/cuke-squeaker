@@ -14,3 +14,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore screenshots and reports from @javascript step failures
+html-report/*.png
+html-report/*.html
