@@ -10,6 +10,8 @@ When /^I enter "([^"]*)" in the search field$/ do |query|
 end
 
 Then /^the results are:$/ do |expected_results|
+  find "ol.results li:first-child"
+
   results = [['content']] + page.all('ol.results li').map do |li|
     [li.text]
   end
